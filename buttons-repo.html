@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buttons</title>
+    <style>
+    .request{
+        background-color:black;
+        color:white;
+        margin:15px;
+        height:35px;
+        width:100px;
+        border:none;
+        cursor:pointer;
+    }
+    .request:hover{
+        opacity:0.8;
+    }
+    .amazon{
+        background-color:yellow;
+        border:none;
+        height:35px;
+        width:200px;
+        margin:15px;
+        border-radius:20px;
+        font-weight:600;
+        cursor:pointer;
+    }
+    .amazon:hover{
+        background-color:rgb(249, 224, 34)
+    }
+    .github{
+        background-color:rgb(34, 193, 34);
+        color:white;
+        height:35px;
+        width:100px;
+        border-radius:5px;
+        border:none;
+        font-size:16px;
+        font-weight:600;
+        cursor:pointer;
+    }
+    .github:hover{
+        box-shadow:5px 5px 10px rgba(0,0,0,0.15);
+    }
+    .bootstrap{
+        background-color: rgb(155, 22, 208);
+        color:white;
+        height:35px;
+        width:120px;
+        border:none;
+        border-radius:3px;
+        font-weight:400;
+        cursor:pointer;
+        margin:30px;
+    }
+    .bootstrap:hover{
+        background-color:rgb(101, 33, 164);
+        transition:background-color 0.15s,color 0.15s;
+    }
+    .download{
+        background-color:white;
+        border-color:rgb(152, 140, 140);
+        border-radius:2px;
+        height:35px;
+        width:100px;
+        margin:15px;
+        cursor:pointer;
+        border-style:solid;
+        transition:background-color 0.15s,color 0.15s;
+    }
+    .download:hover{
+        background-color:grey;
+        color:white;
+    }
+    .linkedin{
+        background-color: rgb(66, 66, 235);
+        color:white;
+        font-weight:700;
+        height:30px;
+        width:220px;
+        border-radius:20px;
+        border:none;
+        cursor:pointer;
+        margin: 30px;
+    }
+    .linkedin:hover{
+        background:rgb(36, 69, 153);
+        transition:background-color 0.15s;
+    }
+    .save{
+        background-color:white;
+        border:solid;
+        border-color:rgb(14, 88, 117);
+        color:rgb(14, 88, 117);
+        height:35px;
+        width:70px;
+        border-radius:20px;
+        cursor:pointer;
+        font-weight:700;
+        border-width:2px;
+    }
+    .save:hover{
+        border-width:3px;
+        opacity:1;
+    }
+    .shadow-button{
+        background-color: green;
+        color:white;
+        border:none;
+        font-size:18px;
+        padding-top:8px;
+        padding-bottom: 8px;
+        padding-left: 16px;
+        padding-right:16px;
+        cursor:pointer;
+        box-shadow:3px 3px 5px rgba(0,0,0,0.3);
+    }
+    .shadow-button:active{
+        margin-top:3px;
+        margin-left:3px;
+        box-shadow:none;
+    }
+    .stretch-button{
+        background-color: green;
+        color:white;
+        border:none;
+        font-size:18px;
+        padding-top:8px;
+        padding-bottom: 8px;
+        cursor:pointer;
+        padding-left: 15px;
+        padding-right:15px;
+        margin-left:10px;
+        margin-right:10px;
+        transition:padding 0.15s, margin 0.15s;
+    }
+    .stretch-button:hover{
+        padding-left: 25px;
+        padding-right:25px;
+        margin-left:0px;
+        margin-right:0px;
+    }
+    .back-button{
+        margin-right: 8px;
+        padding-top:8px;
+        padding-bottom:8px;
+        font-size:16px;
+    }
+    .search-result{
+        margin-left: 4px;
+        margin-right: 4px;
+        font-size: 18px;
+    }
+    .next-button{
+        margin-left: 8px;
+        padding-top:8px;
+        padding-bottom:8px;
+        font-size:15px;
+    }
+    </style>
+</head>
+<body>
+    <button class="request">Request now</button>
+    <button class="amazon">Add to Cart</button>
+    <button class="github">Sign up</button>
+    <button class="bootstrap">Get started</button>
+    <button class="download">Download</button>
+    <button class="linkedin">Apply on company website</button>
+    <button class="save">Save</button>
+    <button class="shadow-button">Shadow</button>
+    <button class="stretch-button">one</button>
+    <button class="stretch-button">Two</button>
+    <button class="stretch-button">Three</button>
+    <button class="back-button">Back</button>
+    <a href="https://google.com" class="search-result">1</a>
+    <a href="https://google.com" class="search-result">2</a>
+    <a href="https://google.com" class="search-result">3</a>
+    <a href="https://google.com" class="search-result">4</a>
+    <a href="https://google.com" class="search-result">5</a>
+    <button class="next-button">Next</button>
+</body>
+</html>
