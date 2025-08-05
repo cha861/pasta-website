@@ -1,8 +1,5 @@
 # pasta-website
-## 🚀 Live Preview
-
-(Add this after deploying)  
-[🔗 View Website](https://cha861.github.io/pasta-website)
+--This is a basic practice project i learned during my frontend learning journey
 
 ---
 
