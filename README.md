@@ -1,14 +1,23 @@
 # pasta-website
---This is a basic practice project i learned during my frontend learning journey
+Pasta Website is a simple, responsive web project showcasing various pasta recipes. Built for frontend development practice, it features interactive buttons, planned recipe expansions, and a focus on clean design.
 
-## ✅ Still in Progress
+## ✨ Features
 
-This is a basic version. I plan to:
-- Add animation/transitions
-- Improve accessibility and SEO
-- Add more recipe pages
+- Responsive layout
+- Practiced button components
+- Basic recipe page structure
+
+## 🛠️ Planned Improvements
+
+- Animations & transitions
+- Accessibility enhancements
+- SEO optimization
+- More recipes!
 
 ---
+## 🤝 Contributing
+
+Contributions are welcome! Please open an issue or submit a pull request.
 -This repo also consists of the various buttons and its code which i have practiced while learning.
 ## 🧑‍💻 Author
 
