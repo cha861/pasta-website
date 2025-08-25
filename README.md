@@ -22,6 +22,6 @@ Contributions are welcome! Please open an issue or submit a pull request.
 -This repo also consists of the various buttons and its code which i have practiced while learning.
 ## 🧑‍💻 Author
 
-*Charitha Reddy*  
+[author] Charitha Reddy*  
 3rd year CSE | Learning frontend development  
 [GitHub](https://github.com/cha861)
